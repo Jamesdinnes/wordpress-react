@@ -1,5 +1,7 @@
 # Wordpress | Docker | React
 
+This project shows off how to embed react apps into wordpress using a custom wordpress plugin and shortcodes!
+
 ## Device Setup
 
 In order to setup and run this project you will need `node`, `yarn`, and a few extensions installed. If not completed previously, the best way to do this is as follows.
