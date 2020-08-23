@@ -31,12 +31,15 @@ Follow the steps outlined here: [Docker Install](https://docs.docker.com/desktop
 
 ## Get Started
 <summary> Install Dependencies (do this before running the project)</summary>
-  `yarn deps`
-</details>
+  
 <details>
 <summary> Running the project</summary>
-  `yarn start`
-  This project will be run on localhost:8000
+
+1. `yarn deps`
+    - Installs all deps required to run the project
+2. `yarn start`
+    - Runs docker and builds react
+    - This project will be run on localhost:8000
 </details>
 <details>
 
