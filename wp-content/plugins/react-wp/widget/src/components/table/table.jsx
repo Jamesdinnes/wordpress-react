@@ -9,7 +9,7 @@ import { Pagination } from '../pagination'
 
 import css from './table.module.css'
 
-export const Table = ({data}) => {
+export const Table = ({ data }) => {
   const [itemsPerPage, setItemsPerPage] = useState(5)
   const { currentData, currentPage, maxPage, pageRange, jump, next, prev } = usePagination(data, itemsPerPage)
   const [cards, setCards] = useState(currentData())
