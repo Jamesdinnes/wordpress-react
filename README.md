@@ -31,15 +31,11 @@ Follow the steps outlined here: [Docker Install](https://docs.docker.com/desktop
 
 ## Get Started
 <summary> Install Dependencies (do this before running the project)</summary>
-  ```
-    yarn deps
-  ```
+  `yarn deps`
 </details>
 <details>
 <summary> Running the project</summary>
-  ```
-    yarn start
-  ```
+  `yarn start`
   This project will be run on localhost:8000
 </details>
 <details>
