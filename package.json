@@ -1,0 +1,12 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "= <=>",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose up -d; cd wp-content/plugins/react-wp/widget; yarn build;",
+    "deps": "cd wp-content/plugins/react-wp/widget; yarn install;",
+    "clean": "rm -rf -r node_modules"
+  }
+}

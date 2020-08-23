@@ -1,0 +1,15 @@
+button { 
+  border: none;
+  margin: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+}
+
+/* Remove excess and border in Firefox 4+ */
+button::-moz-focus-inner {
+  border: 0;
+}
