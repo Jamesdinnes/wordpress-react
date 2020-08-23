@@ -40,6 +40,7 @@ Follow the steps outlined here: [Docker Install](https://docs.docker.com/desktop
 2. `yarn start`
     - Runs docker and builds react
     - This project will be run on localhost:8000
+    - default login will be user: admin, password: amin
 </details>
 <details>
 
